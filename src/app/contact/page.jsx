@@ -5,7 +5,7 @@ import styles from "./index.module.css"
 export default function Contact() {
   return (
     <section className={styles.main}>
-      <div>
+      <div className={styles.content}>
       <h1 className={styles.pageTitle}>
       ✣ contact ✣
       </h1>
@@ -16,7 +16,7 @@ export default function Contact() {
       instagram: karinhawk
       </p>
       </div>
-      <Image alt="medieval iron cast jewellery" src={pic} width={500} height={800}/>
+      <Image className={styles.pic} alt="medieval iron cast jewellery" src={pic} width={500} height={800}/>
     </section>
   )
 }

@@ -5,7 +5,7 @@ import styles from "./index.module.css"
 export default function Music() {
   return (
     <section className={styles.main}>
-      <div>
+      <div className={styles.content}>
       <h1 className={styles.pageTitle}>
       ✣ music ✣
       </h1>
@@ -24,7 +24,7 @@ export default function Music() {
       <h4>Large Ensemble</h4>
       <p>De Herinnering | 2022 | Violin, Cello, Double Bass, Flute (+Piccolo), Clarinet (+Bass Clarinet), Trombone, Percussion | 7'30" | <a href="https://soundcloud.com/karinhawksworth/de-herinnering-2022-virtual-playback?si=482c4f14f9b0463faa62de92e2590d7b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">listen</a></p>
       </div>
-      <Image alt="medieval iron cast jewellery" src={pic} width={500} height={800}/>
+      <Image className={styles.pic} alt="medieval iron cast jewellery" src={pic} width={500} height={800}/>
     </section>
   )
 }

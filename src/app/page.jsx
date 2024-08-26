@@ -5,7 +5,7 @@ import styles from "./index.module.css"
 export default function Home() {
   return (
     <section className={styles.main}>
-      <div>
+      <div className={styles.content}>
       <h1 className={styles.pageTitle}>
       ✣ home ✣
       </h1>
@@ -13,7 +13,7 @@ export default function Home() {
         {`Karin Hawksworth is a London-based composer, cellist, and software developer.`}
       </p>
       </div>
-      <Image alt="medieval iron cast jewellery" src={pic} width={500} height={800}/>
+      <Image className={styles.pic} alt="medieval iron cast jewellery" src={pic} width={500} height={800}/>
     </section>
   )
 }

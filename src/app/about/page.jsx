@@ -5,7 +5,7 @@ import styles from "./index.module.css"
 export default function About() {
   return (
     <section className={styles.main}>
-      <div>
+      <div className={styles.content}>
       <h1 className={styles.pageTitle}>
       ✣ about ✣
       </h1>
@@ -17,7 +17,7 @@ export default function About() {
         dirt, tears from a Tuesday night, jerky dancing, or religion.`}
       </p>
       </div>
-      <Image alt="medieval iron cast jewellery" src={pic} width={500} height={800}/>
+      <Image className={styles.pic} alt="medieval iron cast jewellery" src={pic} width={500} height={800}/>
     </section>
   )
 }

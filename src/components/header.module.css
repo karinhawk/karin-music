@@ -1,15 +1,21 @@
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .link {
     color: black;
     font-size: 1rem;
     margin-left: 1rem;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .nav {
     margin-right: 2rem;
 }
+
+@media screen and (max-width: 720px) {
+    .header {
+        flex-direction: column;
+    }
+  }
