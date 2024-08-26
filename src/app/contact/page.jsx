@@ -1,5 +1,5 @@
 import Image from "next/image";
-import pic from "../../../public/images/icon2.png"
+import pic from "../../../public/images/icon5.png"
 import styles from "./index.module.css"
 
 export default function Contact() {
