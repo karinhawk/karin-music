@@ -1,1 +1,9 @@
+body {
+  background-color: rgb(222, 219, 212);
+  margin-left: 2rem;
+}
 
+a {
+  color: black;
+  font-style: italic;
+}

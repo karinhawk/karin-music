@@ -1,19 +1,22 @@
 import Image from "next/image";
-import tv from "../../../public/images/retro_tv.jpeg"
+import pic from "../../../public/images/icon2.jpeg"
+import styles from "./index.module.css"
 
 export default function Contact() {
   return (
-    <section>
-      <h1>
-        karin hawksworth contact
+    <section className={styles.main}>
+      <div>
+      <h1 className={styles.pageTitle}>
+      ✣ contact ✣
       </h1>
       <p>
         email: karin.hawksworth@gmail.com
       </p>
       <p>
-      instagram: karinhawks
+      instagram: karinhawk
       </p>
-      <Image alt="old chunky box tv on the floor of an empty room" src={tv} width={500} height={800}/>
+      </div>
+      <Image alt="medieval iron cast jewellery" src={pic} width={500} height={800}/>
     </section>
   )
 }

@@ -1,9 +1,9 @@
-import { Inter } from "next/font/google";
+import { Roboto_Serif } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto_Serif({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Karin Hawksworth | Composer",
@@ -12,7 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html>
+    <html className={roboto.className}>
       <body>
       <Header />
       <main>{children}</main>

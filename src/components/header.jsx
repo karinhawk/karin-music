@@ -1,26 +1,35 @@
 import Link from "next/link"
+import localFont from 'next/font/local'
+import styles from "./header.module.css"
+
+const titleFont = localFont({ src: '../../public/fonts/titlefont48.otf' })
 
 export default function Header() {
   return (
     <>
-    <nav>
+    <div className={styles.header}>
+    <div className={styles.title}>
+    <h1 className={titleFont.className}>Karin Hawksworth</h1>
+    </div>
+    <nav className={styles.nav}>
     {/* <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/"> */}
-    <Link href="/">
-        Home
+    <Link href="/" className={styles.link}>
+        home
       </Link>
  
-      <Link
+      <Link className={styles.link}
         href="/about"
       >
-        About
+        about
       </Link>
-      <Link href="/music">
-        Music
+      <Link className={styles.link} href="/music">
+        music
       </Link>
-      <Link href="/contact">
-        Contact
+      <Link className={styles.link} href="/contact">
+        contact
       </Link>
     </nav>
+    </div>
     </>
   )
 }

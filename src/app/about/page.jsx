@@ -1,12 +1,13 @@
 import Image from "next/image";
-import plaster from "../../../public/images/plaster_window.jpeg"
+import pic from "../../../public/images/icon1.jpeg"
 import styles from "./index.module.css"
 
 export default function About() {
   return (
-    <section>
-      <h1>
-        karin hawksworth about
+    <section className={styles.main}>
+      <div>
+      <h1 className={styles.pageTitle}>
+      ✣ about ✣
       </h1>
       <p className={styles.description}>
       {`Karin Hawksworth is a composer, cellist, and software developer from South West England.
@@ -15,7 +16,8 @@ export default function About() {
         exploration, where each piece will evoke a completely different soundscape and draw from themes such as the human condition,
         dirt, tears from a Tuesday night, jerky dancing, or religion.`}
       </p>
-      <Image alt="picture of a hollow window in a terracotta wall with cast iron bars over the opening" src={plaster} width={500} height={800}/>
+      </div>
+      <Image alt="medieval iron cast jewellery" src={pic} width={500} height={800}/>
     </section>
   )
 }
