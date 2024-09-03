@@ -9,7 +9,7 @@ export default function About() {
         <h1 className={styles.pageTitle}>✣ about ✣</h1>
         <p className={styles.description}>
           Karin Hawksworth is a composer and cellist raised in South West
-          England and living in London.
+          England who lives in London.
         </p>
         <p className={styles.description}>
           She studied at the University of Birmingham under Michael Zev Gordon,
