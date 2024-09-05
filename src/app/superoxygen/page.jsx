@@ -9,7 +9,7 @@ export default function Superoxygen() {
         <div className={styles.musicpage}>
           <SoundCloudEmbedded
             url={
-              "https://soundcloud.com/karinhawksworth/superoxygen-excerpt-2024-virtual-playback?si=fcad078bd6e94c67b86b6ba33a4fc24b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+              "https://soundcloud.com/karinhawksworth/superoxygen-end-2024-virtual-playback?si=4fa3867b18fb454d83d9ca659b46ed66&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
             }
           />
           <div className={styles.text}>
