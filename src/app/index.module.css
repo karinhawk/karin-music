@@ -8,7 +8,11 @@
 }
 
 .showme {
-  margin-top: 6rem;
+  margin-top: 2rem;
+}
+
+.buffer {
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 720px) {
