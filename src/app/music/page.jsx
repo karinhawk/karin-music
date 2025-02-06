@@ -16,8 +16,7 @@ export default function Music() {
 
           <h4>Trios</h4>
           <p>
-            this. | 2024 | Bass Clarinet, Double Bass, Multitimbral Keyboard |
-            WIP
+            <Link href="/badlands">Badlands</Link> | 2024 | Bass Clarinet, Double Bass, Piano, Fixed Media | 10'15"
           </p>
 
           <h4>Small Ensemble</h4>

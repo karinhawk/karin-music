@@ -14,9 +14,12 @@ export default function About() {
         <p className={styles.description}>
           She studied at the University of Birmingham under Michael Zev Gordon,
           Daria Kwiatkowska, and Ryan Latimer. Since then, she has pursued
-          lessons with composer and conductor Leo Geyer and continues to pour
-          herself into creating new and exciting works for a variety of
-          ensembles.
+          lessons with Leo Geyer and continues to pour herself into creating new
+          and exciting works for a variety of ensembles.
+        </p>
+        <p>
+          She is primarily interested in the interaction of electronics and ensemble.
+          Her current goals include deepening her understanding of soundscape and sound design.
         </p>
         <p>
           She has had pieces workshopped by Birmingham Contemporary Music Group
