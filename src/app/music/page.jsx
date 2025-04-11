@@ -35,6 +35,11 @@ export default function Music() {
             Double Bass, Flute (+Piccolo), Clarinet (+Bass Clarinet), Trombone,
             Percussion, Harp | 7'30"
           </p>
+          
+          <h4>Electronic</h4>
+          <p>
+          <Link href="/sarsen-blue">sarsen blue</Link> | 2025 | ambient soundscape for an art exhibition | 15'00"
+          </p>
         </div>
       </div>
       <Image
