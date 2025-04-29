@@ -24,6 +24,21 @@
   font-size: 0.9rem;
 }
 
+.arrow {
+  font-size: 2rem;
+  padding-right: 0.4rem;
+}
+
+.back {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.back_link {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 720px) {
   .content {
     display: flex;

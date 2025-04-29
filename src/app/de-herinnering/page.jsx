@@ -1,5 +1,6 @@
 import SoundCloudEmbedded from "@/components/embeddedPlayer";
 import styles from "./index.module.css";
+import Link from "next/link";
 
 export default function DeHerinnering() {
   return (
@@ -29,6 +30,12 @@ export default function DeHerinnering() {
             >{`Written as the final piece for my undergrad at The University of Birmingham. It was workshopped and performed by Birmingham Contemporary Music Group (BCMG).`}</p>
           </div>
         </div>
+        <Link href="/music" className={styles.back_link}>
+          <div className={styles.back}>
+            <p className={styles.arrow}>⇐</p>
+            <p>back to music</p>
+          </div>
+        </Link>
       </div>
     </section>
   );

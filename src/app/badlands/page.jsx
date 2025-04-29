@@ -1,5 +1,6 @@
 import SoundCloudEmbedded from "@/components/embeddedPlayer";
 import styles from "./index.module.css";
+import Link from "next/link";
 
 export default function Badlands() {
   return (
@@ -28,6 +29,12 @@ export default function Badlands() {
             >{`My first piece with fixed media. It progresses from dark and gravelly to lithe to dissociative.`}</p>
           </div>
         </div>
+        <Link href="/music" className={styles.back_link}>
+          <div className={styles.back}>
+            <p className={styles.arrow}>⇐</p>
+            <p>back to music</p>
+          </div>
+        </Link>
       </div>
     </section>
   );

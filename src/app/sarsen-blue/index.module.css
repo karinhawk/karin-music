@@ -1,0 +1,122 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  }
+  
+.content {
+  display: flex;
+  flex-direction: column;
+}
+  
+.musicpage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageTitle {
+  margin-bottom: 2.5rem;  
+}
+
+.description {
+  margin: 0 1rem 1rem 0;
+  padding: 0 2rem 0 2rem;
+  line-height: 1.3rem;
+  font-size: 0.9rem;
+}
+
+.arrow {
+  font-size: 2rem;
+  padding-right: 0.4rem;
+  }
+  
+.back {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.back_link {
+  text-decoration: none;
+}
+
+.divider {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.gallery1 {
+  width: 40vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  flex-direction: row;
+}
+
+.gallery2 {
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 720px) {
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+.musicpage {
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    width: 90%;
+    margin: 1rem 0 1rem 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery1 {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+
+.gallery2 {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+}

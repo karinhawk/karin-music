@@ -1,5 +1,6 @@
 import SoundCloudEmbedded from "@/components/embeddedPlayer";
 import styles from "./index.module.css";
+import Link from "next/link";
 
 export default function Psalm() {
   return (
@@ -23,6 +24,12 @@ Psalm offers a space to reflect. It invites the listener to enter a deeper state
             >{`I had the honour of The Solem Quartet playing this piece for a workshop.`}</p>
           </div>
         </div>
+        <Link href="/music" className={styles.back_link}>
+          <div className={styles.back}>
+            <p className={styles.arrow}>⇐</p>
+            <p>back to music</p>
+          </div>
+        </Link>
       </div>
     </section>
   );
