@@ -1,5 +1,6 @@
 import Image from "next/image";
 import pic from "../../public/images/icon4.png";
+import karinPic from "../../public/images/karin.png";
 import styles from "./index.module.css";
 import Link from "next/link";
 import SoundCloudEmbedded from "@/components/embeddedPlayer";
@@ -13,21 +14,28 @@ export default function Home() {
           {`Karin Hawksworth is a young London-based composer, cellist, and site reliability engineer.`}
         </p>
         <div className={styles.buffer}>
-          <p>
-          {`Listen to Badlands`}
-          </p>
+          <p>{`Listen to Badlands`}</p>
         </div>
         <SoundCloudEmbedded
-            url={
-              "https://soundcloud.com/karinhawksworth/badlands-2024-virtual-playback?si=bf84de4949e64cc89eb56c0c810a84a9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
-            }
-          />
+          url={
+            "https://soundcloud.com/karinhawksworth/badlands-2024-virtual-playback?si=bf84de4949e64cc89eb56c0c810a84a9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+          }
+        />
         <Link href="/music">
           <p className={styles.showme}>My Pieces</p>
         </Link>
         <Link href="https://soundcloud.com/karinhawksworth">
           <p className={styles.showme}>Soundcloud</p>
         </Link>
+      </div>
+      <div className={styles.karinContainer}>
+        <Image
+          className={styles.karinPic}
+          alt="a picture of karin"
+          src={karinPic}
+          width={200}
+          height={200}
+        />
       </div>
       <Image
         className={styles.pic}

@@ -26,10 +26,7 @@ export default function About() {
           (De Herinnering), The Solem Quartet (Psalm), and Workers Union
           Ensemble (Superoxygen).
         </p>
-        <p>
-          She works as a site reliability engineer but makes sure she leaves
-          generous time for composing.
-        </p>
+        <p>She works as a site reliability engineer.</p>
       </div>
       <Image
         className={styles.pic}

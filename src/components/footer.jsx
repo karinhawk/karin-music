@@ -1,9 +1,9 @@
+import styles from "./footer.module.css";
+
 export default function Footer() {
   return (
-    <>
-    <nav>
-      @ Karin Hawksworth 2024
-    </nav>
-    </>
-  )
+    <div className={styles.footer}>
+      <nav>@ Karin Hawksworth 2024</nav>
+    </div>
+  );
 }
