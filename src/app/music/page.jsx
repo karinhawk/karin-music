@@ -24,6 +24,10 @@ export default function Music() {
 
           <h4 className={styles.groupSize}>Small Ensemble</h4>
           <p className={styles.piece}>
+            <Link href="/saltwater">Saltwater</Link> | 2026 | Cello Quartet and
+            Fixed Media | 3'40"
+          </p>
+          <p className={styles.piece}>
             <Link href="/broken-bridges">Broken Bridges</Link> | 2025 | 3
             Violins and Cello | 2'15"
           </p>
